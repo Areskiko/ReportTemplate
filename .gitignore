@@ -1,0 +1,7 @@
+*
+!*.tex
+!.*
+!LICENSE
+!README.md
+!mybib.bib
+!ntnureport.cls

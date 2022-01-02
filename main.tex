@@ -1,0 +1,33 @@
+\documentclass{ntnureport}
+
+\title{The industrial revolution and its consequences}
+\author{Ola Nordmann}
+\date{\today}
+
+\begin{document}
+    \maketitle
+
+    \pagenumbering{roman}
+
+    \clearpage
+    \input{prelude.tex}\clearpage
+
+    \tableofcontents
+    \addcontentsline{toc}{section}{Table of Contents}
+    \clearpage
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+
+    %%% Insert your report files here
+    \input{Introduction.tex}\clearpage
+    \input{Method.tex}\clearpage
+    \input{Results.tex}\clearpage
+    \input{Conclusion.tex}\clearpage
+    %%% End report
+
+    \printbibliography
+    \addcontentsline{toc}{section}{References}
+
+    %%% Insert your appendix files here
+
+\end{document}
